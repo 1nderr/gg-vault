@@ -22,7 +22,7 @@ To run the server, you will need to install the following modules:
 
 - `bcrypt`
 
-To use the `requirements.txt` file, just run `pip3 install -r requirements.txt`.
+The dependencies are managed with [uv](https://docs.astral.sh/uv/). Run `uv sync` to install them.
 
 ## Setup environment variables
 
@@ -36,4 +36,4 @@ You will need the following environment variables set for this application:
 
 ## Run the Server
 
-Navigate to the `src` directory, then run the command `python run.py`.
+Navigate to the `src` directory, then run the command `uv run run.py`.
